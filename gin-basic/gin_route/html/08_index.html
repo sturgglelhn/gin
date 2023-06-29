@@ -7,10 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-
-<!--上传文件——当个文件   -->
-<form action="http://localhost:8080/upload" method="post" enctype="multipart/form-data">
-    上传文件:<input type="file" name="file" >
+<form action="http://localhost:8000/loginForm" method="post" enctype="application/x-www-form-urlencoded">
+    用户名<input type="text" name="username"><br>
+    密码<input type="password" name="password">
     <input type="submit" value="提交">
 </form>
 </body>

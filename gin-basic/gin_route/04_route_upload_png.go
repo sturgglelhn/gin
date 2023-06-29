@@ -7,6 +7,10 @@ import (
 	"net/http"
 )
 
+/*
+	上传特定的文件，比如只允许上传png文件类型
+*/
+
 func main() {
 	r := gin.Default()
 	r.POST("/upload", func(c *gin.Context) {

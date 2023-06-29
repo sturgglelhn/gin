@@ -5,6 +5,10 @@ import (
 	"net/http"
 )
 
+/*
+上传单个文件
+*/
+
 func main() {
 	r := gin.Default()
 	// 限制上传最大的尺寸
